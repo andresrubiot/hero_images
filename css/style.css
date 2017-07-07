@@ -1,0 +1,29 @@
+html, body {
+	margin: 0px;
+	font-family: Roboto, Arial, Helvetica;
+}
+
+.hero-image {
+	background: url('../images/hero_background.png'), pink;
+	background-size: cover;
+	background-position: center;
+	height: 75vh;
+	padding:25px;
+	padding-bottom: 5%;
+
+	color: #FFF;
+
+	display: flex;
+	align-items: flex-end;
+}
+
+.hero-image h1 {
+	font-size: 70px;
+	margin: 0px;
+	text-shadow: 0px 0px 5px #000;
+}
+
+.hero-image p {
+	font-size: 20px;
+	text-shadow: 0px 0px 2px #000;
+}
